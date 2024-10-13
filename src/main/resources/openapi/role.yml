@@ -16,3 +16,8 @@ get:
         application/json:
           schema:
             $ref: "schemas.yml/#/Role"
+    500:
+      content:
+        application/problem+json:
+          schema:
+            $ref: "schemas.yml/#/ErrorDetails"
