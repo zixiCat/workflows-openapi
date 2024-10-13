@@ -64,6 +64,8 @@
 							<inputSpec>${project.basedir}/src/main/resources/openapi/index.yml</inputSpec>
 							<generatorName>spring</generatorName>
 							<skipValidateSpec>true</skipValidateSpec>
+							<templateResourcePath>
+								${project.basedir}/src/main/resources/templates/JavaSpring</templateResourcePath>
 							<configHelp>false</configHelp>
 							<configOptions>
 								<openApiNullable>false</openApiNullable>
