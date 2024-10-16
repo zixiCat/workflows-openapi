@@ -19,6 +19,24 @@ get:
         application/problem+json:
           schema:
             $ref: "schemas.yml/#/ErrorDetails"
+delete:
+  summary: Get user by ID
+  tags:
+    - User
+  parameters:
+    - name: id
+      in: path
+      schema:
+        type: integer
+        minimum: 1
+  responses:
+    200:
+      content:
+    500:
+      content:
+        application/problem+json:
+          schema:
+            $ref: "schemas.yml/#/ErrorDetails"
 post:
   summary: Update user
   tags:
