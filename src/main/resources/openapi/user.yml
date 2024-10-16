@@ -5,8 +5,6 @@ get:
   parameters:
     - name: id
       in: query
-      allowEmptyValue: false
-      required: true
       schema:
         type: integer
         minimum: 1
