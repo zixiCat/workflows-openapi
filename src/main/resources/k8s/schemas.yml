@@ -25,12 +25,3 @@ User:
   properties:
     id:
       type: integer
-    name:
-      type: string
-Role:
-  type: object
-  properties:
-    id:
-      type: integer
-    name:
-      type: string

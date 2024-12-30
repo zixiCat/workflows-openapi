@@ -1,8 +1,8 @@
-openapi: 3.0.0
+openapi: 3.0.3
 servers:
   - url: http://127.0.0.1:9010
 info:
-  title: Sample API
+  title: K8s API
   version: 1.0.0
   description: The response type of APIs are wrapped by "BaseResponse" type
 tags:
@@ -11,8 +11,6 @@ tags:
 paths:
   /user:
     $ref: user.yml
-  /role:
-    $ref: role.yml
 components:
   schemas:
     $ref: schemas.yml
