@@ -65,7 +65,7 @@
 							<generatorName>spring</generatorName>
 							<skipValidateSpec>true</skipValidateSpec>
 							<templateResourcePath>
-								${project.basedir}/src/main/resources/templates/JavaSpring</templateResourcePath>
+								${project.basedir}/src/main/resources/templates/javaSpring</templateResourcePath>
 							<configHelp>false</configHelp>
 							<configOptions>
 								<openApiNullable>false</openApiNullable>
