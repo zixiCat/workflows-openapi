@@ -1,4 +1,4 @@
 UnexpectedError:
-  $ref: "./UnexpectedError.yaml"
+  $ref: "./UnexpectedError.yml"
 NullResponse:
-  $ref: "./NullResponse.yaml"
+  $ref: "./NullResponse.yml"

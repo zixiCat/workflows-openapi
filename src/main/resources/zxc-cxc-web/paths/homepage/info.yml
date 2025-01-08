@@ -17,4 +17,4 @@ get:
           schema:
             $ref: ../../schemas/HomePageInfo.yml
     default:
-      $ref: ../../responses/UnexpectedError.yaml
+      $ref: ../../responses/UnexpectedError.yml
