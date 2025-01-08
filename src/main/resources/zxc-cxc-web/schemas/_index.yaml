@@ -1,0 +1,4 @@
+HomePageInfo:
+  $ref: ./HomePageInfo.yml
+Error:
+  $ref: ./Error.yaml

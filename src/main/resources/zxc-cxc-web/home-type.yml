@@ -1,9 +1,0 @@
-HomePage:
-  type: object
-  properties:
-    titleIntro:
-      type: integer
-    subIntro:
-      type: string
-    avatar:
-      type: string
