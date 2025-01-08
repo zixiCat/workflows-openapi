@@ -1,0 +1,12 @@
+openapi: "3.0.3"
+info:
+  title: ZXC CXC
+  version: "1.0"
+  description: The response type of APIs are wrapped by "BaseResponse" type
+servers:
+  - url: https://api.server.test/v1
+tags:
+  - name: Home Page
+paths:
+  /homepage:
+    $ref: home-path.yml

@@ -1,0 +1,15 @@
+get:
+  summary: Get Home info
+  tags:
+    - Home Page
+  responses:
+    200:
+      content:
+        application/json:
+          schema:
+            $ref: "home-type.yml"
+    500:
+      content:
+        application/problem+json:
+          schema:
+            $ref: "common.yml/#/ErrorDetails"
